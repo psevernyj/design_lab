@@ -1,13 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: Lato;
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .header {
   background-image: url("../img/bg_header.png");
@@ -19,60 +17,44 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: rgba(255, 255, 255, 255);
+  color: white;
   text-transform: uppercase;
   text-align: center;
-  position: relative;
-
-  & h1 {
+  position: relative; }
+  .header h1 {
     font-size: 45pt;
     letter-spacing: 5px;
     margin-top: 96px;
-    margin-bottom: 53px;
-
-  }
-
-  & h2 {
+    margin-bottom: 53px; }
+  .header h2 {
     font-size: 12pt;
     font-family: Lato;
     font-weight: normal;
-    line-height: 1.5;
-
-  }
-
-  .scroll {
+    line-height: 1.5; }
+  .header .scroll {
     position: absolute;
-    bottom: 115px;
-  }
-
-
-}
+    bottom: 115px; }
 
 .about {
-  color: rgba(60, 60, 60, 255);
+  color: #3c3c3c;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 160px 0;
-
-  fieldset {
+  margin: 160px 0; }
+  .about fieldset {
     width: 902px;
     height: 312px;
     position: relative;
     border: 2px solid #3c3c3c;
-    border-radius: 3px;
-  }
-
-  legend {
+    border-radius: 3px; }
+  .about legend {
     padding: 0 70px;
     font-size: 25pt;
     font-weight: bold;
     letter-spacing: 5px;
-    color: #3c3c3c;
-  }
-
-  .text {
+    color: #3c3c3c; }
+  .about .text {
     line-height: 2;
     font-size: 11pt;
     width: 553px;
@@ -81,39 +63,33 @@ body {
     left: 178px;
     top: 95px;
     right: 171px;
-    bottom: 29px;
+    bottom: 29px; }
+    .about .text .first_text {
+      padding-bottom: 25px; }
 
-    .first_text {
-      padding-bottom: 25px;
-    }
-  }
-}
-.services{
+.services {
   background-image: url("../img/bg_main.png");
   background-position: center;
-  width: 1920px; height: 488px;
+  width: 1920px;
+  height: 488px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 80px 0;
-  fieldset {
+  margin: 80px 0; }
+  .services fieldset {
     width: 902px;
     height: 312px;
     position: relative;
     border: 2px solid #ffffff;
-    border-radius: 3px;
-
-  }
-  legend {
+    border-radius: 3px; }
+  .services legend {
     padding: 0 70px;
     font-size: 25pt;
     font-weight: bold;
     letter-spacing: 5px;
-    color: #ffffff;
-
-  }
-  .text {
+    color: #ffffff; }
+  .services .text {
     line-height: 2;
     font-size: 11pt;
     width: 553px;
@@ -123,60 +99,42 @@ body {
     top: 110px;
     right: 171px;
     bottom: 29px;
-    color: #ffffff;
+    color: #ffffff; }
+    .services .text .first_text {
+      padding-bottom: 25px; }
 
-    .first_text {
-      padding-bottom: 25px;
-    }
-  }
-
-}
-.what_we_do{
-  color: rgba(60, 60, 60, 255);
+.what_we_do {
+  color: #3c3c3c;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-
-  fieldset{
-    width: 902px; height: 1182px;
+  align-items: center; }
+  .what_we_do fieldset {
+    width: 902px;
+    height: 1182px;
     position: relative;
-    border: 2px solid #3c3c3c;;
+    border: 2px solid #3c3c3c;
     border-radius: 3px;
-    position: relative;
-    legend{
+    position: relative; }
+    .what_we_do fieldset legend {
       padding: 0 70px;
       font-size: 25pt;
       font-weight: bold;
       letter-spacing: 5px;
-      color: #3c3c3c;
-    }
-    .content{
+      color: #3c3c3c; }
+    .what_we_do fieldset .content {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      flex-direction:column;
-
-      .block{
+      flex-direction: column; }
+      .what_we_do fieldset .content .block {
         margin: 45px 0;
         letter-spacing: 1px;
-        line-height: 2;
-        & h1{
-
+        line-height: 2; }
+        .what_we_do fieldset .content .block h1 {
           text-transform: uppercase;
-          margin:30px 0;
-        }
-
-        & p{
-          width: 550px; height: 89px;
-          font-size: 8pt;
-
-
-        }
-      }
-    }
-
-
-  }
-
-}
+          margin: 30px 0; }
+        .what_we_do fieldset .content .block p {
+          width: 550px;
+          height: 89px;
+          font-size: 8pt; }
